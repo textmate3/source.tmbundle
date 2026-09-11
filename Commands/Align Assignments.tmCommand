@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/ruby
+	<string>#!/usr/bin/env ruby
 
 IS_SELECTION = ENV.key?('TM_SELECTED_TEXT')
 CURRENT_LINE = ENV['TM_LINE_NUMBER'].to_i.pred
